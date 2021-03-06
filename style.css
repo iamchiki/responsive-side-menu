@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f4f4f4;
+  font-family: 'Arial', serif;
+}
+
+.navbar {
+  background-color: #3b5998;
+  height: 63px;
+  overflow: hidden;
+}
+
+.navbar a {
+  display: block;
+  text-decoration: none;
+  color: #f2f2f2;
+  font-size: 17px;
+  padding: 14px 16px;
+  text-align: center;
+  float: left;
+}
+
+ul.nav-navbar {
+  list-style: none;
+  padding: 8px 0 0 0;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: #000;
+}
