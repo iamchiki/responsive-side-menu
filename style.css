@@ -72,3 +72,10 @@ ul.nav-navbar {
   padding: 20px;
   transition:0.5s;
 }
+
+
+@media (max-width:568px) {
+  .nav-navbar {
+    display: none;
+  }
+}
