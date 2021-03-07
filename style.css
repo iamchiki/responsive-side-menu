@@ -45,6 +45,7 @@ ul.nav-navbar {
   transition: 0.5s;
   /* z-index: 1; */
   padding-top: 60px;
+  overflow-x: hidden;
 }
 
 .side-nav a {
@@ -65,4 +66,9 @@ ul.nav-navbar {
   top: 0;
   right: 22px;
   font-size: 36px;
+}
+
+#main {
+  padding: 20px;
+  transition:0.5s;
 }
